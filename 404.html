@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — Page Not Found | Syeda Fatima Qadri</title>
+  <meta name="description" content="The page you are looking for does not exist.">
+  <meta name="theme-color" content="#0d0b14">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230d0b14'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='34' font-weight='600' text-anchor='middle' fill='%23b9a7f5'%3ES%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .not-found-section {
+      min-height: calc(100vh - var(--header-h) - 100px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: clamp(60px, 12vw, 120px) 20px;
+    }
+    .not-found-box {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .not-found-num {
+      font-family: var(--serif);
+      font-size: clamp(6rem, 15vw, 10rem);
+      line-height: 1;
+      color: var(--accent);
+      font-weight: 500;
+      margin-bottom: 12px;
+      opacity: 0.9;
+    }
+    .not-found-box h1 {
+      font-family: var(--serif);
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 400;
+      margin-bottom: 16px;
+    }
+    .not-found-box p {
+      color: var(--muted);
+      margin-bottom: 32px;
+      font-size: 1.05rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Syeda Fatima Qadri — home">SFQ<span>.</span></a>
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#resume">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-primary btn-sm nav-cta" href="contact.html">Hire me</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="not-found-section">
+      <div class="container">
+        <div class="not-found-box">
+          <div class="not-found-num">404</div>
+          <h1>Page not <em>found.</em></h1>
+          <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+          <div class="hero-actions" style="justify-content: center; display: flex; gap: 16px; flex-wrap: wrap;">
+            <a class="btn btn-primary" href="index.html">Back to portfolio <span class="arrow arrow-right" aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="contact.html">Contact me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year">2026</span> Syeda Fatima Qadri</span>
+      <span>Karachi, Pakistan · <a href="mailto:syedafatimasfs20@gmail.com">syedafatimasfs20@gmail.com</a></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
